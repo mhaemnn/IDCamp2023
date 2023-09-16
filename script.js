@@ -1,6 +1,5 @@
-const buttons = document.getElementsByClassName("button");
+const parag = document.createElement("li");
+parag.innerText = "ini adalah paragraf menggunkan javascript";
 
-for (const button of buttons) {
-  button.children[0].style.borderRadius = "6px";
-  button.children[0].style.backgroundColor = "red";
-}
+const datar = document.getElementById("daftar");
+datar.appendChild(parag);
