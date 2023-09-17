@@ -1,14 +1,34 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Memasak air</title>
+    <title>Event World</title>
+
+    <style>
+      .contents {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid black;
+        padding: 15px;
+      }
+
+      #generateButton {
+        margin-top: 5px;
+        margin-bottom: 15px;
+      }
+    </style>
   </head>
   <body>
-    <p id="name">langkah-langkah memasak</p>
-    <ol id="daftar">
-      <li id="awal">masukan air kedalam wadah</li>
-      <li id="akhir">matikan kompor</li>
-    </ol>
-    <hr size="2" width="95%" color="black" />
-    <script src="script.js"></script>
+    <div class="contents" align="center" hidden>
+      <button id="incrementButton">Tekan Aku :)</button>
+      <h3>
+        Kamu sudah menekan tombol di atas sebanyak <span id="count">0</span>
+      </h3>
+    </div>
+
+    <script src="script.js">
+      // Kode JavaScript kita
+    </script>
   </body>
 </html>
