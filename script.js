@@ -42,5 +42,8 @@ function welcome() {
   contents.removeAttribute("hidden");
 }
 
-document.getElementById("incrementButton").onclick = increment;
-document.body.onload = welcome;
+// document.getElementById("incrementButton").onclick = increment;
+// document.body.onload = welcome;
+
+window.addEventListener("load", welcome);
+document.getElementById("incrementButton").addEventListener("click", increment);
